@@ -1,6 +1,6 @@
 ---
 name: fstack-build
-description: Execute an approved PLAN.md one step at a time. Use when the plan is approved and the user says to build.
+description: Execute an approved .plan/PLAN.md one step at a time. Use when the plan is approved and the user says to build.
 ---
 
 # /fstack-build
@@ -9,16 +9,16 @@ Implement the approved plan in small steps. Verify each step before moving on. P
 
 ## When to use
 
-- An approved `PLAN.md` exists and the user says to build.
+- An approved `.plan/PLAN.md` exists and the user says to build.
 - `/fstack` routed here because the plan is approved and ready.
 
 ## Steps
 
-1. Take the first unfinished step from `PLAN.md`.
+1. Take the first unfinished step from `.plan/PLAN.md`.
 2. Implement it with the smallest change that works.
 3. Verify it. Run it, run the test, load the page — whatever fits.
 4. Report in 2–3 sentences: what changed, how you verified it.
-5. Mark the step done in `PLAN.md`.
+5. Mark the step done in `.plan/PLAN.md`.
 6. If the next step involves a real choice — library, API shape, naming that leaks into the public surface — **stop and ask** before proceeding.
 7. Otherwise, continue to the next unfinished step. Repeat from step 1.
 
@@ -26,7 +26,7 @@ Implement the approved plan in small steps. Verify each step before moving on. P
 
 Pause when a step needs a decision that affects the rest of the work. Present the options in plain language. Say what you recommend and why. Wait for approval.
 
-If you discover work that is not in the plan, propose the amendment and **stop and ask**. Add it to `PLAN.md` only after the user approves it.
+If you discover work that is not in the plan, propose the amendment and **stop and ask**. Add it to `.plan/PLAN.md` only after the user approves it.
 
 ## Must NOT
 

@@ -23,7 +23,7 @@ Prove it by running it. Tests, the dev server, the actual command. "It should wo
 
 ### 2. Does it match the plan?
 
-Diff the work against `PLAN.md`. Flag anything built that was not planned. Flag anything planned that was not built.
+Diff the work against `.plan/PLAN.md`. Flag anything built that was not planned. Flag anything planned that was not built.
 
 Then check blast radius. List what else this change could affect: callers, styles, routes, configs. Confirm each is fine.
 
